@@ -1,0 +1,32 @@
+
+    /* Custom Tailwind config overrides if needed */
+    .no-select {
+      user-select: none;
+    }
+    /* Custom scrollbar for facility section */
+    .facility-scroll::-webkit-scrollbar {
+      height: 8px;
+    }
+    .facility-scroll::-webkit-scrollbar-thumb {
+      background-color: #3b82f6;
+      border-radius: 20px;
+    }
+    .facility-scroll::-webkit-scrollbar-track {
+      background: transparent;
+    }
+    /* Popular badge styling */
+    .badge-popular {
+      position: absolute;
+      top: -12px;
+      left: 50%;
+      transform: translateX(-50%);
+      background-color: #2563eb;
+      color: white;
+      font-size: 0.75rem;
+      font-weight: 600;
+      padding: 2px 8px;
+      border-radius: 9999px;
+      pointer-events: none;
+      user-select: none;
+      z-index: 10;
+    }

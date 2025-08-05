@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>WashBuddy - Layanan Laundry Terpercaya</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-slate-50 font-sans text-slate-900 antialiased">
+  <!-- Header -->
+  <header class="flex items-center justify-between px-8 py-4 bg-white shadow-sm sticky top-0 z-30">
+    <div class="flex items-center space-x-2 select-none">
+      <svg xmlns="http://www.w3.org/2000/svg" fill="#2563eb" viewBox="0 0 24 24" stroke="none" class="w-8 h-8">
+        <path d="M12 2.25C7.548 7.091 4.5 11.428 4.5 14.25A7.5 7.5 0 0012 21.75a7.5 7.5 0 007.5-7.5c0-1.473-1.539-4.82-5.334-10.045zM12 18a4.5 4.5 0 01-4.5-4.5c0-.928.973-2.668 3.31-5.385A24.682 24.682 0 0112 8.25a5.986 5.986 0 011.538 2.715C15.357 11.758 16.5 13.083 16.5 13.5A4.5 4.5 0 0112 18z" />
+      </svg>
+      <span class="font-extrabold text-2xl text-blue-600 select-text">SS Laundry</span>
+    </div>
+    <nav class="hidden md:flex space-x-8 font-medium text-slate-700">
+      <a href="#" class="flex items-center hover:text-blue-600 transition-colors no-select" title="Beranda">
+        <i class="bi bi-house-door-fill" style="margin-right: 10px; margin-bottom: 1px;"></i>
+        Beranda
+      </a>
+      <a href="#tentang-kami" class="flex items-center hover:text-blue-600 transition-colors no-select" title="Tentang Kami">
+        <i class="bi bi-chat-left-text-fill" style="margin-right: 10px; margin-top: 6px;"></i>
+        Tentang Kami
+      </a>
+      <a href="kontak.html" class="flex items-center hover:text-blue-600 transition-colors no-select" title="Kontak Kami">
+        <i class="bi bi-telephone-fill" style="margin-right: 10px; margin-top: -1px;"></i>
+        Kontak Kami
+      </a>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="bg-gradient-to-r from-blue-500 to-blue-600 text-white px-12 py-16 flex gap-12 justify-center items-center relative select-text max-w-[1400px] mx-auto">
+    <div class="max-w-xl">
+      <h1 class="font-extrabold text-4xl leading-tight mb-3">
+        Layanan Laundry <br />
+        <span class="text-blue-300">Terpercaya</span>
+      </h1>
+      <p class="text-lg max-w-lg mb-8 font-normal opacity-90">
+        Kelola bisnis laundry Anda dengan mudah. Sistem manajemen pesanan yang modern dan efisien.
+      </p>
+      </div>
+    </div>
+    <div class="relative max-w-xl rounded-xl shadow-lg overflow-hidden flex-shrink-0">
+      <img src="img/Logo.jpg" 
+           alt="Modern laundry room with multiple washing machines lined up and white shirts hanging on a line inside a clean, bright space." 
+           class="w-full h-full object-cover block rounded-xl" onerror="this.onerror=null;this.src='https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/be26fd46-20ba-4523-8ed8-f47fb54f0805.png';" />
+      <div class="flex gap-4 absolute -bottom-10 left-1/2 -translate-x-1/2">
+        <div class="bg-white rounded-lg shadow-md p-3 min-w-[95px] flex flex-col items-center text-center">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#D97706" stroke-width="2" class="w-6 h-6 mb-1" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M12 6v6l4 2" /></svg>
+          <span class="text-xs text-slate-700">Proses</span>
+          <strong class="text-xl font-extrabold text-slate-900 mt-0.5">12</strong>
+        </div>
+        <div class="bg-white rounded-lg shadow-md p-3 min-w-[95px] flex flex-col items-center text-center">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#10B981" stroke-width="2" class="w-6 h-6 mb-1" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" /></svg>
+          <span class="text-xs text-slate-700">Selesai</span>
+          <strong class="text-xl font-extrabold text-slate-900 mt-0.5">8</strong>
+        </div>
+        <div class="bg-white rounded-lg shadow-md p-3 min-w-[95px] flex flex-col items-center text-center">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="#2563eb" class="w-6 h-6 mb-1" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 22a8 8 0 1 1 10 0" /></svg>
+          <span class="text-xs text-slate-700">Hari ini</span>
+          <strong class="text-xl font-extrabold text-slate-900 mt-0.5">25</strong>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Services Section -->
+  <section class="bg-slate-100 py-16 px-12 select-text">
+    <div class="max-w-4xl mx-auto text-center">
+      <h2 class="text-3xl font-bold mb-2">Layanan Kami</h2>
+      <p class="text-slate-600 max-w-xl mx-auto mb-12">
+        Pilih layanan laundry yang sesuai dengan kebutuhan Anda. Semua dengan kualitas terbaik dan harga terjangkau.
+      </p>
+
+      <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+        <article class="bg-white p-6 rounded-xl shadow-md space-y-3 cursor-default group relative">
+          <div class="w-14 h-14 bg-blue-300 rounded-full flex items-center justify-center mx-auto">
+            <svg xmlns="http://www.w3.org/2000/svg" stroke="#2563eb" stroke-width="2" fill="none" class="w-7 h-7" viewBox="0 0 24 24" aria-hidden="true">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M3 7a4 4 0 0 1 4-4h10a4 4 0 0 1 4 4v8a4 4 0 0 1-4 4H7a4 4 0 0 1-4-4z" />
+              <path stroke-linecap="round" stroke-linejoin="round" d="M3 7v10a4 4 0 0 0 4 4h10a4 4 0 0 0 4-4v-3" />
+            </svg>
+          </div>
+          <h3 class="text-center font-semibold text-lg tracking-wide mt-2">Cuci Kering</h3>
+          <p class="text-center text-slate-600 text-sm">Layanan cuci dan lipat standar untuk pakaian sehari-hari</p>
+          <p class="text-center font-bold text-blue-600 text-xl mt-4">Rp 5.000/kg</p>
+          <div class="flex justify-center items-center text-slate-500 text-sm space-x-1 mt-2">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#64748b" stroke-width="2" class="w-4 h-4" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M12 8v4l2 2" /></svg>
+            <span>1-2 hari</span>
+          </div>
+        </article>
+
+        <article class="bg-white p-6 rounded-xl shadow-md border-2 border-blue-600 space-y-3 cursor-default relative">
+          <div class="badge-popular">Terpopuler</div>
+          <div class="w-14 h-14 bg-blue-300 rounded-full flex items-center justify-center mx-auto">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#2563eb" stroke-width="2" class="w-7 h-7" viewBox="0 0 24 24" aria-hidden="true">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M6 14l6-6 6 6" />
+              <path stroke-linecap="round" stroke-linejoin="round" d="M12 20v-8" />
+              <circle cx="12" cy="12" r="10" stroke="none" />
+            </svg>
+          </div>
+          <h3 class="text-center font-semibold text-lg tracking-wide mt-2">Cuci Setrika</h3>
+          <p class="text-center text-slate-600 text-sm">Cuci bersih dengan setrika rapi, siap pakai</p>
+          <p class="text-center font-bold text-blue-600 text-xl mt-4">Rp 7.000/kg</p>
+          <div class="flex justify-center items-center text-slate-500 text-sm space-x-1 mt-2">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#64748b" stroke-width="2" class="w-4 h-4" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M12 8v4l2 2" /></svg>
+            <span>2-3 hari</span>
+          </div>
+        </article>
+
+        <article class="bg-white p-6 rounded-xl shadow-md space-y-3 cursor-default">
+          <div class="w-14 h-14 bg-blue-300 rounded-full flex items-center justify-center mx-auto">
+            <svg xmlns="http://www.w3.org/2000/svg" stroke="#2563eb" stroke-width="2" fill="none" class="w-7 h-7" viewBox="0 0 24 24" aria-hidden="true">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M6 12h12M6 16h8M6 8h6" />
+            </svg>
+          </div>
+          <h3 class="text-center font-semibold text-lg tracking-wide mt-2">Express</h3>
+          <p class="text-center text-slate-600 text-sm">Layanan kilat untuk kebutuhan mendesak</p>
+          <p class="text-center font-bold text-blue-600 text-xl mt-4">Rp 10.000/kg</p>
+          <div class="flex justify-center items-center text-slate-500 text-sm space-x-1 mt-2">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#64748b" stroke-width="2" class="w-4 h-4" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M12 8v4l2 2" /></svg>
+            <span>6-12 jam</span>
+          </div>
+        </article>
+
+        <article class="bg-white p-6 rounded-xl shadow-md space-y-3 cursor-default">
+          <div class="w-14 h-14 bg-blue-300 rounded-full flex items-center justify-center mx-auto">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#2563eb" stroke-width="2" class="w-7 h-7" viewBox="0 0 24 24" aria-hidden="true">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M12 4v16m8-8H4" />
+              <path stroke-linecap="round" stroke-linejoin="round" d="M15 12a3 3 0 0 1-6 0" />
+            </svg>
+          </div>
+          <h3 class="text-center font-semibold text-lg tracking-wide mt-2">Premium</h3>
+          <p class="text-center text-slate-600 text-sm">Layanan premium dengan detergen khusus dan pewangi</p>
+          <p class="text-center font-bold text-blue-600 text-xl mt-4">Rp 12.000/kg</p>
+          <div class="flex justify-center items-center text-slate-500 text-sm space-x-1 mt-2">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#64748b" stroke-width="2" class="w-4 h-4" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M12 8v4l2 2" /></svg>
+            <span>2-3 hari</span>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Facilities Section -->
+  <section class="bg-slate-100 py-16 px-12 select-text">
+    <div class="max-w-5xl mx-auto text-center">
+      <h2 class="text-3xl font-bold mb-2">Fasilitas Laundry Kami</h2>
+      <p class="text-slate-600 max-w-xl mx-auto mb-12">
+        Lihat fasilitas modern dan profesional yang kami gunakan untuk memberikan layanan laundry terbaik
+      </p>
+      <div class="facility-scroll flex overflow-x-auto gap-6 scrollbar-thin scrollbar-thumb-blue-600 scrollbar-track-transparent select-none">
+        <div class="relative basis-[320px] rounded-xl shadow-lg overflow-hidden flex-shrink-0 cursor-pointer group">
+          <img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/9e756110-4084-4314-adfd-022b8ea3f97c.png" alt="Modern laundry room with rows of high quality washing machines shining under bright light with white walls and floors" class="w-full h-auto object-cover" onerror="this.onerror=null;this.src='https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/59b6e3ba-251e-418a-97bd-c67de0eb7aad.png';" />
+          <div class="absolute bottom-0 p-4 bg-gradient-to-t from-black/70 to-transparent w-full text-white rounded-b-xl">
+            <h3 class="font-bold text-lg">Mesin Cuci Modern</h3>
+            <p class="text-sm opacity-90">Mesin cuci berkualitas tinggi untuk hasil optimal</p>
+          </div>
+        </div>
+        <div class="relative basis-[320px] rounded-xl shadow-lg overflow-hidden flex-shrink-0 cursor-pointer group">
+          <img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/ed3269a8-b959-41ad-88d9-b507a99d9420.png" alt="Close-up front view of a premium professional washing machine drum with blue lighting inside" class="w-full h-auto object-cover" onerror="this.onerror=null;this.src='https://placehold.co/320x200?text=Image+Unavailable';" />
+          <div class="absolute bottom-0 p-4 bg-gradient-to-t from-black/70 to-transparent w-full text-white rounded-b-xl">
+            <h3 class="font-bold text-lg">Pengering Profesional</h3>
+            <p class="text-sm opacity-90">Sistem pengering canggih untuk hasil sempurna</p>
+          </div>
+        </div>
+        <div class="relative basis-[320px] rounded-xl shadow-lg overflow-hidden flex-shrink-0 cursor-pointer group">
+          <img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/f848da95-5778-459b-b6dc-7560c9cfe11b.png" alt="Organized clothes rack with a variety of freshly laundered clean clothing in a bright, clean laundry facility" class="w-full h-auto object-cover" onerror="this.onerror=null;this.src='https://placehold.co/320x200?text=Image+Unavailable';" />
+          <div class="absolute bottom-0 p-4 bg-gradient-to-t from-black/70 to-transparent w-full text-white rounded-b-xl">
+            <h3 class="font-bold text-lg">Rak Pakaian Bersih</h3>
+            <p class="text-sm opacity-90">Penyimpanan pakaian yang rapi dan terorganisir</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="tentang-kami" class="max-w-7xl mx-auto px-12 py-20 select-text">
+    <h2 class="text-3xl font-bold mb-4 text-center">Tentang SS Laundry</h2>
+    <p class="text-slate-700 max-w-3xl mx-auto mb-12 text-center leading-relaxed">
+      SS Laundry hadir sebagai solusi terpercaya untuk kebutuhan laundry Anda. Dengan pengalaman lebih dari satu dekade,
+      kami telah melayani ribuan pelanggan dengan standar kualitas tertinggi dan pelayanan yang memuaskan.
+    </p>
+    <div class="flex flex-col md:flex-row gap-10 max-w-5xl mx-auto">
+      <article class="flex-1">
+        <h3 class="text-2xl font-extrabold mb-4">Cerita Kami</h3>
+        <p class="text-slate-700 mb-4 leading-relaxed">
+          Dimulai dari sebuah usaha kecil pada tahun 2014, SS Laundry kini telah berkembang menjadi salah satu penyedia layanan laundry
+          terpercaya di kota. Kami memahami bahwa pakaian bersih dan rapi adalah kebutuhan dasar setiap orang.
+        </p>
+        <p class="text-slate-700 mb-4 leading-relaxed">
+          Dengan komitmen terhadap kualitas dan kepuasan pelanggan, kami terus berinovasi dalam teknologi dan metode pencucian.
+          Setiap pakaian yang masuk ke SS Laundry ditangani dengan perhatian khusus dan standar kebersihan yang tinggi.
+        </p>
+        <p class="text-slate-700 mb-4 leading-relaxed">
+          Kami bangga telah melayani lebih dari 50.000 pelanggan dan memproses jutaan kg pakaian dengan tingkat kepuasan pelanggan 99%.
+        </p>
+      </article>
+    </div>
+  </section>
+
+  <!-- Why Choose Us Section -->
+  <section class="max-w-7xl mx-auto px-12 py-20 select-text">
+    <h2 class="text-3xl font-bold mb-10 text-center">Mengapa Memilih SS Laundry?</h2>
+    <div class="grid grid-cols-1 md:grid-cols-4 gap-8 mb-10">
+      <div class="bg-white p-6 rounded-xl shadow-md flex flex-col items-center text-center cursor-default select-none">
+        <div class="w-14 h-14 bg-blue-300 rounded-full flex items-center justify-center mb-4">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#2563eb" stroke-width="2" class="w-7 h-7" viewBox="0 0 24 24" aria-hidden="true">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M12 1v2M17.364 3.636l1.414 1.414M23 12h-2M19.778 18.364l1.414-1.414M12 21v-2M6.222 18.364l-1.414-1.414M1 12h2M4.222 5.636l-1.414 1.414M12 8a4 4 0 1 1 0 8 4 4 0 0 1 0-8z"/>
+          </svg>
+        </div>
+        <h3 class="font-semibold text-lg mb-2">Terpercaya</h3>
+        <p class="text-sm text-slate-600 leading-relaxed">Lebih dari 10 tahun pengalaman melayani pelanggan dengan kualitas terbaik</p>
+      </div>
+      <div class="bg-white p-6 rounded-xl shadow-md flex flex-col items-center text-center cursor-default select-none">
+        <div class="w-14 h-14 bg-blue-300 rounded-full flex items-center justify-center mb-4">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#2563eb" stroke-width="2" class="w-7 h-7" viewBox="0 0 24 24" aria-hidden="true">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M17 20h5v-2a4 4 0 0 0-4-4h-1M9 20H4v-2a4 4 0 0 1 4-4h1m5-5a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"/>
+          </svg>
+        </div>
+        <h3 class="font-semibold text-lg mb-2">Tim Professional</h3>
+        <p class="text-sm text-slate-600 leading-relaxed">Staff terlatih dan berpengalaman dalam menangani berbagai jenis pakaian</p>
+      </div>
+      <div class="bg-white p-6 rounded-xl shadow-md flex flex-col items-center text-center cursor-default select-none">
+        <div class="w-14 h-14 bg-blue-300 rounded-full flex items-center justify-center mb-4">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#2563eb" stroke-width="2" class="w-7 h-7" viewBox="0 0 24 24" aria-hidden="true">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M12 6v6l4 2" />
+          </svg>
+        </div>
+        <h3 class="font-semibold text-lg mb-2">Tepat Waktu</h3>
+        <p class="text-sm text-slate-600 leading-relaxed">Kami berkomitmen menyelesaikan pesanan sesuai dengan waktu yang dijanjikan</p>
+      </div>
+      <div class="bg-white p-6 rounded-xl shadow-md flex flex-col items-center text-center cursor-default select-none">
+        <div class="w-14 h-14 bg-blue-300 rounded-full flex items-center justify-center mb-4">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#2563eb" stroke-width="2" class="w-7 h-7" viewBox="0 0 24 24" aria-hidden="true">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0z"/>
+          </svg>
+        </div>
+        <h3 class="font-semibold text-lg mb-2">Kualitas Terjamin</h3>
+        <p class="text-sm text-slate-600 leading-relaxed">Menggunakan detergen premium dan teknologi mesin cuci terbaru</p>
+      </div>
+    </div>
+
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
+      <div class="bg-white p-6 rounded-xl shadow-md flex cursor-default select-none">
+        <div class="w-12 h-12 bg-blue-300 flex items-center justify-center rounded-full mr-4 flex-shrink-0">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#2563eb" stroke-width="2" class="w-7 h-7" viewBox="0 0 24 24" aria-hidden="true">
+            <circle cx="12" cy="12" r="10" stroke="none" />
+            <path stroke-linecap="round" stroke-linejoin="round" d="M12 16v-4m0-4v2" />
+          </svg>
+        </div>
+        <div>
+          <h4 class="font-semibold text-lg mb-1">Visi</h4>
+          <p class="text-slate-600 text-sm leading-relaxed">
+            Menjadi penyedia layanan laundry terdepan yang mengutamakan kepuasan pelanggan dan kualitas layanan.
+          </p>
+        </div>
+      </div>
+      <div class="bg-white p-6 rounded-xl shadow-md flex cursor-default select-none">
+        <div class="w-12 h-12 bg-blue-300 flex items-center justify-center rounded-full mr-4 flex-shrink-0">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#2563eb" stroke-width="2" class="w-7 h-7" viewBox="0 0 24 24" aria-hidden="true">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M12 14l9-5-9-5-9 5 9 5z" />
+            <path stroke-linecap="round" stroke-linejoin="round" d="M12 14v7" />
+            <path stroke-linecap="round" stroke-linejoin="round" d="M12 7v7" />
+          </svg>
+        </div>
+        <div>
+          <h4 class="font-semibold text-lg mb-1">Misi</h4>
+          <p class="text-slate-600 text-sm leading-relaxed">
+            Memberikan layanan laundry berkualitas tinggi dengan harga terjangkau, menggunakan teknologi modern dan ramah lingkungan.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</body>
+</html>
+
